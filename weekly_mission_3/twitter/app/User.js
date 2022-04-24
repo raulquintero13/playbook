@@ -5,7 +5,7 @@ class User{
         this.username = username
         this.name = name
         this.bio = bio
-        this.dataCreated = dataCreated
+        this.dateCreated = dataCreated
         this.lastUpdated = lastUpdated
     }
 
@@ -23,7 +23,7 @@ class User{
         return this.bio
     }
     get getDateCreated(){
-        return this.dataCreated
+        return this.dateCreated
     }
     get getLastUpdated(){
         return this.lastUpdated
