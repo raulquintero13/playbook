@@ -12,6 +12,10 @@ app.get('/launchx', ( req, res) => {
     res.send('Bienvenidos a launchx')
 })
 
+app.get('/explorersInNode', (req, res) => {
+    const explorer = {anme: "explorer", msg: "hello"}
+    res.send(explorer)
+})
 
 app.listen(port,() => {
     console.log(`example app listening on port ${port}`)
